@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>for loop syntax in ejs</h1>
+    <br><br>
+    <h1>This page belongs to @<%= username %></h1>
+    <button>follow</button>
+    <button>share</button>
+    <h3>Accounts that follows you:</h3>
+    <ul>
+        <% for(users of followers) { %>
+            <li> <%= users %> </li>
+        <% } %>
+    </ul>
+</body>
+</html>
