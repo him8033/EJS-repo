@@ -1,0 +1,46 @@
+{
+    "cats": {
+        "name": "cats",
+        "followers": 25000,
+        "following": 5,
+        "posts": [
+            {
+                "image": "http://www.fillster.com/images/pictures/81g.jpg",
+                "likes": 200,
+                "comments": 17
+            },
+            {
+                "image": "http://www.fillster.com/images/pictures/43i.jpg",
+                "likes": 312,
+                "comments": 19
+            },
+            {
+                "image": "http://www.fillster.com/images/pictures/109w.jpg",
+                "likes": 1065,
+                "comments": 217
+            }
+        ]
+    },
+    "dogs": {
+        "name": "dogs",
+        "followers": 75000,
+        "following": 25,
+        "posts": [
+            {
+                "image": "https://images.dog.ceo/breeds/terrier-yorkshire/IMG_3001.jpg",
+                "likes": 219,
+                "comments": 23
+            },
+            {
+                "image": "https://images.dog.ceo/breeds/dalmatian/cooper1.jpg",
+                "likes": 765,
+                "comments": 29
+            },
+            {
+                "image": "https://images.dog.ceo/breeds/shihtzu/n02086240_3802.jpg",
+                "likes": 3455,
+                "comments": 123
+            }
+        ]
+    }
+}

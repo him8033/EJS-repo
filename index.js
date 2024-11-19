@@ -34,6 +34,19 @@ app.get("/ig/:username",(req,res) => {
     console.log("requesting...");
 })
 
+app.get("/ig/data/:username",(req,res) => {
+    let {username} = req.params;
+    const instaData = require("./data.json");
+    const data = instaData[username];
+    if(data){
+        res.render("instadata.ejs",{data});
+    } else{
+        res.render("error.ejs");
+    }
+    
+    console.log("requesting...");
+})
+
 app.get("/rolldice",(req,res) => {
     let diceValue = Math.floor(Math.random()*6)+1;
     res.render("rollDice.ejs",{diceValue});
